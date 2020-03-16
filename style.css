@@ -5,8 +5,7 @@
 }
 
 header {
-    width: 100%;
-    height: 100px;
+    width: 60%;
     background-color: yellow;
     margin: auto;
 }
@@ -38,12 +37,56 @@ footer {
 
 .header-image {
     width: 100%;
-    height: 50px;
-    background-color: brown;
+    height: 300px;
+    background: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .navbar {
     width: 100%;
     height: 50px;
-    background-color: bisque;
+    background-color: #666666;
+    position: relative;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.bordobianco {
+    background-color: white;
+    padding: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.site-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-mountain {
+
 }
