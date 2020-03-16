@@ -20,6 +20,7 @@ aside {
     width: 20%;
     height: 300px;
     background-color: red;
+    position: relative;
 }
 
 .content {
@@ -52,12 +53,12 @@ footer {
     color: white;
 }
 
-li {
+li.nav {
     display: inline-block;
     padding: 10px;
 }
 
-ul {
+ul.menu {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -89,4 +90,12 @@ ul {
 
 .fa-mountain {
 
+}
+
+.rss {
+
+}
+
+.fa-rss-square {
+    position: absolute;
 }
